@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:Advertisement-schema" elementFormDefault="qualified"
+           xmlns="urn:Advertisement-schema">
+  <xs:element name="Advertisements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ad" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImageUrl" type="xs:string" default=""></xs:element>
+              <xs:element name="NavigateUrl" type="xs:string" default=""></xs:element>
+              <xs:element name="AlternateText" type="xs:string" default=""></xs:element>
+              <xs:element name="Impressions" type="xs:int" default="0"></xs:element>
+              <xs:element name="Keyword" type="xs:string" default=""></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

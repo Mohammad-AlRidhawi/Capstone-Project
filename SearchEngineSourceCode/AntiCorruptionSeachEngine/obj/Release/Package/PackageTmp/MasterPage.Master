@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AntiCorruptionSeachEngine.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="App_Themes/General//html.css" media="screen, projection, tv " />
+    <link rel="stylesheet" type="text/css" href="App_Themes/General//layout.css" media="screen, projection, tv" />
+    <link rel="stylesheet" type="text/css" href="App_Themes/General//print.css" media="print" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <ajax:ToolkitScriptManager runat="server" />
+        <!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+        <div id="content">
+            <!-- HEADER: Holds title, subtitle and header-images -->
+            <div id="header">
+                <div id="title">
+                    <center><h1><asp:Literal ID="pageTitleLiteral" runat="server"></asp:Literal></h1></center>
+                </div>
+                <div style="width: 100%; padding: 8px 0 8px 0; text-align: center; color: #ffffff; font-weight: bold;">
+
+                    <div class="adRotator">
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+                                <asp:AdRotator Width="95%" Height="200" ID="AdRotator1" Target="_blank" AdvertisementFile="/App_Data/Advertisement.ads" OnAdCreated="AdRotator1_AdCreated" runat="server" />
+                                <br />
+                                <asp:Literal ID="alternateText" runat="server"></asp:Literal>
+                                <br />
+                                <asp:Literal Text="Click here to" runat="server"></asp:Literal>
+                                <asp:HyperLink ID="hyperLink" Target="_blank" Text="Learn More" runat="server"></asp:HyperLink>
+                            </ContentTemplate>
+                            <Triggers>
+                                <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
+                            </Triggers>
+                        </asp:UpdatePanel>
+                        <!-- Cycles through material every 20 seconds. -->
+                        <asp:Timer ID="Timer1" Interval="20000" runat="server">
+                        </asp:Timer>
+                    </div>
+
+                    <img src="Images/bg/balloons.gif" alt="" class="balloons" />
+                    <img src="Images/bg/header_left.jpg" alt="" class="left" />
+                    <img src="Images/bg/header_right.jpg" alt="" class="right" />
+                </div>
+                <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+                <div id="mainMenu">
+                    <ul class="floatRight">
+                        <li><a href="#" class="here"><asp:Literal ID="homeLiteral" runat="server"></asp:Literal></a></li>
+                        <li><a href="help.html"><asp:Literal ID="helpLiteral" runat="server"></asp:Literal></a></li>
+                        <li><a href="tags.html"><asp:Literal ID="tagsLiteral" runat="server"></asp:Literal></a></li>
+                        <li><a href="print.html"><asp:Literal ID="printLiteral" runat="server"></asp:Literal></a></li>
+                        <li><a href="#" class="last"><asp:Literal ID="mailLiteral" runat="server"></asp:Literal></a></li>
+                    </ul>
+                </div>
+                <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+                <div id="page">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- 25 percent width column, aligned to the left -->
+                    <div class="width25 floatLeft leftColumn">
+                        <h1><asp:Literal ID="menuTitleLiteral" runat="server"></asp:Literal></h1>
+                        <ul class="sideMenu">
+                            <li class="here">
+                              <ul>
+                                  <li><a href="#"><asp:Literal ID="searchTitleLiteral" runat="server"></asp:Literal></a></li>
+                                  <li>
+                                      <asp:TextBox ID="searchTextBox" Width="202px" runat="server" />
+                                      <asp:Button ID="searchButton" OnClick="SearchButtonClick" Text="Search" runat="server" />
+                                  </li>
+                              </ul>
+                            </li>
+                            <li>
+                                <asp:DropDownList ID="industryDropDown" runat="server" Width="144px" Style="margin-left: 0px">
+                                    <asp:ListItem Text="" />
+                                    <asp:ListItem Text="Agriculture" />
+                                    <asp:ListItem Text="Banking" />
+                                    <asp:ListItem Text="Construction" />
+                                    <asp:ListItem Text="Education" />
+                                    <asp:ListItem Text="Energy" />
+                                    <asp:ListItem Text="Media" />
+                                    <asp:ListItem Text="Telecommunications" />
+                                </asp:DropDownList></li>
+                            <li>
+                                <asp:DropDownList ID="residenceDropDown" runat="server" Width="144px">
+                                    <asp:ListItem Text="" />
+                                    <asp:ListItem Text="Australia" />
+                                    <asp:ListItem Text="Brazil" />
+                                    <asp:ListItem Text="Canada" />
+                                    <asp:ListItem Text="China" />
+                                    <asp:ListItem Text="England" />
+                                    <asp:ListItem Text="France" />
+                                    <asp:ListItem Text="Germany" />
+                                    <asp:ListItem Text="Japan" />
+                                    <asp:ListItem Text="United States" />
+                                </asp:DropDownList></li>
+                            <li>
+                                <asp:DropDownList ID="travelDropDown" runat="server" Width="144px">
+                                    <asp:ListItem Text="" />
+                                    <asp:ListItem Text="Australia" />
+                                    <asp:ListItem Text="Brazil" />
+                                    <asp:ListItem Text="Canada" />
+                                    <asp:ListItem Text="China" />
+                                    <asp:ListItem Text="England" />
+                                    <asp:ListItem Text="France" />
+                                    <asp:ListItem Text="Germany" />
+                                    <asp:ListItem Text="Japan" />
+                                    <asp:ListItem Text="United States" />
+                                </asp:DropDownList>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 75 percent width column, aligned to the right -->
+                    <div class="width75 floatRight">
+                        <!-- Gives the gradient block -->
+                    </div>
+                </div>
+            </div>
+    </form>
+    <!-- FOOTER: Site footer for links, copyright, etc. -->
+    <div id="footer">
+        <div id="width">
+            <span class="floatLeft">5Eyes <span class="grey">|</span> Anti-Corruption Search Engine <span class="grey">|</span> <a href="Admin/Login.aspx">Admin</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

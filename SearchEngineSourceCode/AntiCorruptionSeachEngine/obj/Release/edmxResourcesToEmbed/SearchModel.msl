@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SearchModelStoreContainer" CdmEntityContainer="SearchEntities">
+    <EntitySetMapping Name="countries">
+      <EntityTypeMapping TypeName="SearchModel.country">
+        <MappingFragment StoreEntitySet="country">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="did_you_know">
+      <EntityTypeMapping TypeName="SearchModel.did_you_know">
+        <MappingFragment StoreEntitySet="did_you_know">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="info" ColumnName="info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="histories">
+      <EntityTypeMapping TypeName="SearchModel.history">
+        <MappingFragment StoreEntitySet="history">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="phrase" ColumnName="phrase" />
+          <ScalarProperty Name="frequency" ColumnName="frequency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="industries">
+      <EntityTypeMapping TypeName="SearchModel.industry">
+        <MappingFragment StoreEntitySet="industry">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="keywords" ColumnName="keywords" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="link_country_website">
+      <EntityTypeMapping TypeName="SearchModel.link_country_website">
+        <MappingFragment StoreEntitySet="link_country_website">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="website_id" ColumnName="website_id" />
+          <ScalarProperty Name="country_id" ColumnName="country_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="link_industry_website">
+      <EntityTypeMapping TypeName="SearchModel.link_industry_website">
+        <MappingFragment StoreEntitySet="link_industry_website">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="website_id" ColumnName="website_id" />
+          <ScalarProperty Name="industry_id" ColumnName="industry_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="link_website_words">
+      <EntityTypeMapping TypeName="SearchModel.link_website_words">
+        <MappingFragment StoreEntitySet="link_website_words">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="website_id" ColumnName="website_id" />
+          <ScalarProperty Name="word_id" ColumnName="word_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="websites">
+      <EntityTypeMapping TypeName="SearchModel.website">
+        <MappingFragment StoreEntitySet="website">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="anchor" ColumnName="anchor" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="info" ColumnName="info" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="word_rank" ColumnName="word_rank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="words">
+      <EntityTypeMapping TypeName="SearchModel.word">
+        <MappingFragment StoreEntitySet="word">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="phrase" ColumnName="phrase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="admin_users">
+      <EntityTypeMapping TypeName="SearchModel.admin_users">
+        <MappingFragment StoreEntitySet="admin_users">
+          <ScalarProperty Name="previouslogin" ColumnName="previouslogin" />
+          <ScalarProperty Name="lastlogin" ColumnName="lastlogin" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

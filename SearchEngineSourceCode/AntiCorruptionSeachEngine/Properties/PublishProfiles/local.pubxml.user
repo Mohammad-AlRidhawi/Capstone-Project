@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Desktop\local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/Default.aspx">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="Admin/EditDidYouKnow.aspx">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="Admin/Login.aspx">
+      <publishTime>04/01/2015 13:24:56</publishTime>
+    </File>
+    <File Include="Admin/WebCrawl.aspx">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="Admin_Credentials_Insert.sql">
+      <publishTime>04/01/2015 13:19:24</publishTime>
+    </File>
+    <File Include="App_Data/Advertisement.ads">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="App_Themes/General/html.css">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="App_Themes/General/layout.css">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="App_Themes/General/print.css">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>04/01/2015 13:02:38</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>04/01/2015 13:02:38</publishTime>
+    </File>
+    <File Include="bin/AntiCorruptionSeachEngine.dll">
+      <publishTime>04/02/2015 13:54:53</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/01/2015 13:02:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/01/2015 13:02:40</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>04/01/2015 13:02:40</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>04/01/2015 13:02:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>04/01/2015 13:02:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>04/01/2015 13:02:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>04/01/2015 13:02:44</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/01/2015 13:54:30</publishTime>
+    </File>
+    <File Include="Images/balloons.gif">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/balloons.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/bullet.gif">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/didyouknow.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/footer.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/gradient.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/header.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/header_left.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="Images/header_right.jpg">
+      <publishTime>04/01/2015 13:02:34</publishTime>
+    </File>
+    <File Include="MainSearchPage.aspx">
+      <publishTime>04/02/2015 11:54:32</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>04/01/2015 18:18:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/01/2015 13:02:32</publishTime>
+    </File>
+    <File Include="Results.aspx">
+      <publishTime>04/02/2015 13:52:11</publishTime>
+    </File>
+    <File Include="SearchModel.edmx.diagram">
+      <publishTime>04/02/2015 13:23:11</publishTime>
+    </File>
+    <File Include="SearchModel.edmx.sql">
+      <publishTime>04/01/2015 13:14:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/02/2015 13:38:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

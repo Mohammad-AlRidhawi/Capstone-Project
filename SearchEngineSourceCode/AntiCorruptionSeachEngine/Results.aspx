@@ -1,0 +1,67 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Results.aspx.cs" Inherits="AntiCorruptionSeachEngine.Results" %>
+
+<%--Name: Duncan Reitboeck
+Date: 09/04/2015
+Description: Results page displaying the search results initiated from MainSearchPage.aspx--%>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />
+    <blockquote>
+        <table>
+            <tr>
+                <td>Searched For: </td>
+                <td>
+                    <asp:Label ID="searchforLabel" runat="server" /></td>
+            </tr>
+            <tr>
+                <td>Industry:</td>
+                <td>
+                    <asp:Label ID="industryLabel" Text="" runat="server" /></td>
+            </tr>
+            <tr>
+                <td>Head Office:</td>
+                <td>
+                    <asp:Label ID="officeLabel" Text="" runat="server" /></td>
+            </tr>
+            <tr>
+                <td>Business In:</td>
+                <td>
+                    <asp:Label ID="businessInLabel" Text="" runat="server" /></td>
+            </tr>
+        </table>
+        <asp:Label ID="notFoundLabel" ForeColor="Red" Font-Size="Large" runat="server" />
+        <br />
+        <asp:Button ID="returnToSearchbutton" Font-Size="Large" Text="Click Here To Return To Search" OnClick="ReturnSearchClick" runat="server" />
+        <br />
+        <br />
+        <br />
+    </blockquote>
+    <blockquote>
+        <asp:Repeater ID="results" runat="server">
+            <ItemTemplate>
+                <asp:HyperLink ID="resultsLink" Font-Size="Large" Text='<%#Eval("title")%>' NavigateUrl='<%#Eval("anchor")%>' runat="server" />
+                <br />
+                <%#Eval("anchor")%>;
+                <br />
+                <br />
+                <%#Eval("info")%>;
+                <br />
+                <br />
+                <hr />
+                <br />
+            </ItemTemplate>
+        </asp:Repeater>
+    </blockquote>
+    <div align="center">
+        <asp:Button ID="prevButton" OnClick="PrevClick" Text="<< Prev" Visible="false" runat="server" />
+        &nbsp&nbsp&nbsp&nbsp
+            <asp:Button ID="nextButton" OnClick="NextClick" Text="Next >>" Visible="false" runat="server" />
+    </div>
+    <%--  <asp:Label ID="Label1" runat="server" />
+    <asp:HyperLink ID="resultsLink" runat="server" />
+    <br />
+    <br />
+    <asp:Label ID="descriptionLabel" runat="server" />--%>
+</asp:Content>

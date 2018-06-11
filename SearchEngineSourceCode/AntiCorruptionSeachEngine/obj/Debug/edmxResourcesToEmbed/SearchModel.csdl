@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SearchModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="lastlogin" Type="DateTime" Precision="3" />
+    <Property Name="previouslogin" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="country">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="link_country_website" Relationship="Self.FK__link_coun__count__3B75D760" FromRole="country" ToRole="link_country_website" />
+  </EntityType>
+  <EntityType Name="did_you_know">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="info" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="history">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="phrase" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="frequency" Type="Int32" />
+  </EntityType>
+  <EntityType Name="industry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="keywords" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="link_industry_website" Relationship="Self.FK__link_indu__indus__3F466844" FromRole="industry" ToRole="link_industry_website" />
+  </EntityType>
+  <EntityType Name="link_country_website">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="website_id" Type="Int32" />
+    <Property Name="country_id" Type="Int32" />
+    <NavigationProperty Name="country" Relationship="Self.FK__link_coun__count__3B75D760" FromRole="link_country_website" ToRole="country" />
+    <NavigationProperty Name="website" Relationship="Self.FK__link_coun__websi__3A81B327" FromRole="link_country_website" ToRole="website" />
+  </EntityType>
+  <EntityType Name="link_industry_website">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="website_id" Type="Int32" />
+    <Property Name="industry_id" Type="Int32" />
+    <NavigationProperty Name="industry" Relationship="Self.FK__link_indu__indus__3F466844" FromRole="link_industry_website" ToRole="industry" />
+    <NavigationProperty Name="website" Relationship="Self.FK__link_indu__websi__3E52440B" FromRole="link_industry_website" ToRole="website" />
+  </EntityType>
+  <EntityType Name="link_website_words">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rank" Type="Int32" />
+    <Property Name="website_id" Type="Int32" />
+    <Property Name="word_id" Type="Int32" />
+    <NavigationProperty Name="website" Relationship="Self.FK__link_webs__websi__4222D4EF" FromRole="link_website_words" ToRole="website" />
+    <NavigationProperty Name="word" Relationship="Self.FK__link_webs__word___4316F928" FromRole="link_website_words" ToRole="word" />
+  </EntityType>
+  <EntityType Name="website">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="anchor" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cost" Type="Boolean" />
+    <Property Name="rank" Type="Int32" />
+    <Property Name="word_rank" Type="Int32" />
+    <NavigationProperty Name="link_country_website" Relationship="Self.FK__link_coun__websi__3A81B327" FromRole="website" ToRole="link_country_website" />
+    <NavigationProperty Name="link_industry_website" Relationship="Self.FK__link_indu__websi__3E52440B" FromRole="website" ToRole="link_industry_website" />
+    <NavigationProperty Name="link_website_words" Relationship="Self.FK__link_webs__websi__4222D4EF" FromRole="website" ToRole="link_website_words" />
+  </EntityType>
+  <EntityType Name="word">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="phrase" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="link_website_words" Relationship="Self.FK__link_webs__word___4316F928" FromRole="word" ToRole="link_website_words" />
+  </EntityType>
+  <Association Name="FK__link_coun__count__3B75D760">
+    <End Role="country" Type="Self.country" Multiplicity="0..1" />
+    <End Role="link_country_website" Type="Self.link_country_website" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="country">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_country_website">
+        <PropertyRef Name="country_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__link_indu__indus__3F466844">
+    <End Role="industry" Type="Self.industry" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="link_industry_website" Type="Self.link_industry_website" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="industry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_industry_website">
+        <PropertyRef Name="industry_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__link_coun__websi__3A81B327">
+    <End Role="website" Type="Self.website" Multiplicity="0..1" />
+    <End Role="link_country_website" Type="Self.link_country_website" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="website">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_country_website">
+        <PropertyRef Name="website_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__link_indu__websi__3E52440B">
+    <End Role="website" Type="Self.website" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="link_industry_website" Type="Self.link_industry_website" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="website">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_industry_website">
+        <PropertyRef Name="website_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__link_webs__websi__4222D4EF">
+    <End Role="website" Type="Self.website" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="link_website_words" Type="Self.link_website_words" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="website">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_website_words">
+        <PropertyRef Name="website_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__link_webs__word___4316F928">
+    <End Role="word" Type="Self.word" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="link_website_words" Type="Self.link_website_words" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="word">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="link_website_words">
+        <PropertyRef Name="word_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SearchEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admin_users" EntityType="Self.admin_users" />
+    <EntitySet Name="countries" EntityType="Self.country" />
+    <EntitySet Name="did_you_know" EntityType="Self.did_you_know" />
+    <EntitySet Name="histories" EntityType="Self.history" />
+    <EntitySet Name="industries" EntityType="Self.industry" />
+    <EntitySet Name="link_country_website" EntityType="Self.link_country_website" />
+    <EntitySet Name="link_industry_website" EntityType="Self.link_industry_website" />
+    <EntitySet Name="link_website_words" EntityType="Self.link_website_words" />
+    <EntitySet Name="websites" EntityType="Self.website" />
+    <EntitySet Name="words" EntityType="Self.word" />
+    <AssociationSet Name="FK__link_coun__count__3B75D760" Association="Self.FK__link_coun__count__3B75D760">
+      <End Role="country" EntitySet="countries" />
+      <End Role="link_country_website" EntitySet="link_country_website" />
+    </AssociationSet>
+    <AssociationSet Name="FK__link_indu__indus__3F466844" Association="Self.FK__link_indu__indus__3F466844">
+      <End Role="industry" EntitySet="industries" />
+      <End Role="link_industry_website" EntitySet="link_industry_website" />
+    </AssociationSet>
+    <AssociationSet Name="FK__link_coun__websi__3A81B327" Association="Self.FK__link_coun__websi__3A81B327">
+      <End Role="website" EntitySet="websites" />
+      <End Role="link_country_website" EntitySet="link_country_website" />
+    </AssociationSet>
+    <AssociationSet Name="FK__link_indu__websi__3E52440B" Association="Self.FK__link_indu__websi__3E52440B">
+      <End Role="website" EntitySet="websites" />
+      <End Role="link_industry_website" EntitySet="link_industry_website" />
+    </AssociationSet>
+    <AssociationSet Name="FK__link_webs__websi__4222D4EF" Association="Self.FK__link_webs__websi__4222D4EF">
+      <End Role="website" EntitySet="websites" />
+      <End Role="link_website_words" EntitySet="link_website_words" />
+    </AssociationSet>
+    <AssociationSet Name="FK__link_webs__word___4316F928" Association="Self.FK__link_webs__word___4316F928">
+      <End Role="word" EntitySet="words" />
+      <End Role="link_website_words" EntitySet="link_website_words" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

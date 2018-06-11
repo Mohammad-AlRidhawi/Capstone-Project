@@ -1,0 +1,263 @@
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+E:\Downloads\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+E:\Users\David\Documents\Visual Studio 2013\Projects\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+E:\Desktop\AntiCorruptionSeachEngine (2)\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+D:\Users\Johnathan Falbo\Desktop\AntiCorruptionSeachEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+C:\Users\DUNCAN\Documents\Visual Studio 2013\Projects\SearchEngine\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\IndustrialAppProject\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+D:\Users\Johnathan Falbo\Downloads\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+C:\Users\Dev_\Documents\Visual Studio 2013\Projects\SearchEngine April 2 (1)\SearchEngine April 2\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll.config
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\AntiCorruptionSeachEngine.pdb
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\AjaxControlToolkit.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\AjaxMin.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\EntityFramework.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\System.Spatial.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\EntityFramework.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\EntityFramework.SqlServer.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.pdb
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\HtmlAgilityPack.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\Microsoft.Data.Edm.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\Microsoft.Data.OData.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\System.Spatial.xml
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\de\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\es\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\fr\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\it\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\ja\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\ko\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\bin\ru\System.Spatial.resources.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.csprojResolveAssemblyReference.cache
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.dll
+E:\Desktop\CST8235_DVD1\SearchEngine April 4\AntiCorruptionSeachEngine\obj\Debug\AntiCorruptionSeachEngine.pdb

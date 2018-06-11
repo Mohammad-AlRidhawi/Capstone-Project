@@ -1,0 +1,263 @@
+/***********************************
+  Name: Mohammad Al Ridhawi
+  Date: April 8, 2015
+  Description: Style html elements   
+************************************/
+html {
+  /*sets height to 100%*/
+  height: 100%;
+}
+
+body {
+  /*sets height to 100%*/
+  height: 100%;
+  /*sets margin to 0*/
+  margin: 0;
+  /*sets padding to 0*/
+  padding: 0;
+  /*aligns the body to the center*/
+  text-align: center;
+  /*sets the font*/
+  font: 400 0.8em verdana, arial, sans-serif;
+  line-height: 170%;
+  /*sets background of body*/
+  background: #666 url(../../Images/header.jpg) repeat-x top left;
+  /*sets color of background*/
+  color: #EEE;
+}
+
+h1 {   
+  clear: both;
+  /*sets font of h1*/
+  font: 700 2.5em "trebuchet ms", serif;
+  /*sets color of h1*/
+  color: #FFF;
+}
+
+h2 {
+  /*sets font of h2*/
+  font: 400 1.5em "trebuchet ms", serif;
+  /*sets color of h2*/
+  color: #9FF3FF;
+}
+
+h2 a {
+  /*sets color of h2*/
+  color: #29E3FF;
+}
+
+h2 a:hover {
+  /*sets color of h2*/
+  color: #FFF;
+}
+
+h3 {
+  /*sets font of h3*/
+  font: 400 1.3em "trebuchet ms", serif;
+  /*sets color of h3*/
+  color: #F8D766;
+}
+
+h4 {
+  /*sets font of h4*/
+  font: 700 1.2em "trebuchet ms", serif;
+  /*sets color of h4*/
+  color: #F39F01;
+}
+
+h5 {
+  /*sets font of h5*/
+  font: 700 1.1em "trebuchet ms", serif;
+  /*sets color of h5*/
+  color: #F17400;
+}
+
+h6 {
+  /*sets font of h6*/
+  font: 700 1em "trebuchet ms", serif;
+  /*sets color of h6*/
+  color: #FF4B33;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, dl {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+/**********************************************
+ Aligns left columns properly with the header
+ **********************************************/
+.leftColumn h1,
+.leftColumn h2, 
+.leftColumn h3,
+.leftColumn h4,
+.leftColumn h5,
+.leftColumn h6,
+.leftColumn p,
+.leftColumn dl {
+  padding-left: 0;
+}
+
+a {
+  color: #8BE6FA;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+b {
+  color: #FFF;
+}
+
+ol, ul {
+  margin: 10px 30px;
+  padding: 0 30px;
+}
+
+ol {
+  color: #FC0;
+}
+
+ol span {
+  color: #EEE;
+}
+
+ul {
+  list-style-image: url(../Images/bullet.gif);
+}
+
+del {
+  color: #AAA;
+}
+
+code {
+    /*sets margin*/
+  margin: 10px 15px;
+  /*sets padding*/
+  padding: 10px;
+  /*sets display*/
+  display: block;
+  overflow: auto; 
+  font: 400 1em courier, monospace;
+  line-height: 120%;
+  white-space: pre;
+  /*sets background*/ 
+  background: #444;
+}
+
+.leftColumn code {
+  margin-left: 0;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+
+dt {
+    /*sets font to bold*/
+  font-weight: bold;
+  color: #FFB323;
+}
+
+dd {
+  margin-left: 0;
+  padding-left: 45px; 
+}
+
+
+/*********************
+  Forms the elements
+**********************/
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+   /*sets padding*/
+  padding: 2px;
+  /*sets font*/
+  font: 400 1em verdana, sans-serif;
+  /*sets color*/
+  color: #444;
+  /*sets background*/
+  background: #EEE;
+  /*sets border*/
+  border: 1px solid #444;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+  color: #000;
+  background: #E4F7FA;
+  border: 1px solid #00DFFF;
+}
+
+input.button {
+    /*sets padding*/
+  padding: 2px 5px;
+  /*sets font*/
+  font: 400 1.1em "trebuchet ms", serif;
+  /*sets color*/
+  color: #555;
+  /*sets background color*/
+  background: #9FF3FF;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFF #00DFFF #00DFFF #FFF;
+}
+
+blockquote {
+  margin: 10px 15px;
+  /*sets left padding*/
+  padding-left: 27px;
+  /*sets background color*/
+  background-color: #444;  
+  /*sets background image*/
+  background-image: url(../Images/icons/quote.gif);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;  
+}
+
+blockquote.exclamation {
+  background-image: url(../Images/icons/exclamation.gif);
+}
+
+blockquote.stop {
+  background-image: url(../Images/icons/stop.gif);
+}
+
+blockquote.go {
+  background-image: url(../Images/icons/go.gif);
+}
+
+/*****************
+    Images
+******************/
+img.floatRight {
+    /*sets the margins of right image*/
+  margin: 5px 0px 10px 15px;  
+}
+
+img.floatLeft {
+    /*sets the margins of the left image*/
+  margin: 5px 15px 10px 0px;
+}
+
+a img {  
+  /*sets border*/
+  border: 2px solid #8BE6FA;
+}
+
+a:hover img {  
+  border: 2px solid #FFF !important;
+  border: 2px solid #8BE6FA;
+}

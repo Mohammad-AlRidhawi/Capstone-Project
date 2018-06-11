@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AntiCorruptionSearchEngine2ModelStoreContainer" CdmEntityContainer="AntiCorruptionSearchEngine2Entities">
+    <EntitySetMapping Name="did_you_know">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.did_you_know">
+        <MappingFragment StoreEntitySet="did_you_know">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="options_id" ColumnName="options_id" />
+          <ScalarProperty Name="info" ColumnName="info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="links">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.link">
+        <MappingFragment StoreEntitySet="links">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="url_id" ColumnName="url_id" />
+          <ScalarProperty Name="section_id" ColumnName="section_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="options">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.option">
+        <MappingFragment StoreEntitySet="options">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="country_origin" ColumnName="country_origin" />
+          <ScalarProperty Name="country_visiting" ColumnName="country_visiting" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="phrases">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.phrase">
+        <MappingFragment StoreEntitySet="phrase">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="word" ColumnName="word" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="searches">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.search">
+        <MappingFragment StoreEntitySet="search">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="phrase_id" ColumnName="phrase_id" />
+          <ScalarProperty Name="options_id" ColumnName="options_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sections">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.section">
+        <MappingFragment StoreEntitySet="section">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="urls">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.url">
+        <MappingFragment StoreEntitySet="url">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="anchor" ColumnName="anchor" />
+          <ScalarProperty Name="start_url" ColumnName="start_url" />
+          <ScalarProperty Name="temp_url" ColumnName="temp_url" />
+          <ScalarProperty Name="found_url" ColumnName="found_url" />
+          <ScalarProperty Name="short_info" ColumnName="short_info" />
+          <ScalarProperty Name="long_info" ColumnName="long_info" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="websites">
+      <EntityTypeMapping TypeName="AntiCorruptionSearchEngine2Model.website">
+        <MappingFragment StoreEntitySet="websites">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="url_id" ColumnName="url_id" />
+          <ScalarProperty Name="info" ColumnName="info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
