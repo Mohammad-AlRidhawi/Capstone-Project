@@ -1,0 +1,41 @@
+Server Deploy Instructions
+
+System Requirements
+
+These instructions have been tested on a server running Windows Server 2008 R2 with IIS 7.5 and .Net Framework 4.5 installed on the server. 
+A version of Microsoft SQL server 2012 is also required to be installed on the server.
+
+Connecting remotely to the server
+
+Press the windows button and type “remote desktop”. When you see the program launch it. For the computer field type “algonquincetcs.ca”. 
+When you are prompted for a username enter “strange” when you are prompted for a password type “va2CYN270%”. If you are prompted with 
+certificate issues press “yes” and connect anyway.
+
+Setting up the database
+
+Connect to the remote host and Install Microsoft SQL Server 2012 on the server with all options left to default. When you get to the screen 
+that you setup the user for the Database set the Authentication method to SQL server authentication. Set the username field to “sa” and the 
+password field to “va2CYN270%”. Continue with all other default options until the install is complete.
+If you don’t have SQL management studio express installed on your local machine install it first only on a local machine not the server. 
+Open SQL management and connect with the Database connection info URL: algonquincetcs.ca, Username: sa, and password: va2CYN270%. Create a 
+new Database named “Production”. Run the SQL script located in the root of the source code folder to create the database.
+Next open the script “Admin_Credentials_Insert.sql” and run it to create and insert the credentials for the admin login.
+
+Deploying code to the server
+
+Open the project source with Visual Studio 2013. Under the solution explorer tab right click properties. Select publish. Set the deployment 
+settings to file system deploy and choose a folder you would like the files to be moved to and select publish. “copy” this folder and past it 
+onto the desktop of the server through the remote host connection. Go to this folder on the server and open the “web.config” file in note pad. 
+Remove the line “<provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />” 
+as this provider is built into the server and is only needed for local development. Move the files from the desktop and paste all the files under 
+“C:\inetpub\wwwroot” on the server. You will see a file titled “index.html” on the server desktop, copy this in as well. It contains a html redirect so a 
+user only has to type algonquincetcs.ca to access the search engine. Next open the Server manager and go to IIS. Open “Sites” and right click “webmain”. 
+Select “add application” set the Alias to “anti-corruption” and the physical path to “C:\inetpub\wwwroot” then click “OK”.
+
+The search engine should now be available to the world.
+
+Note: The web crawl must be ran before the search engine will be able to provide search results. Before the web crawl is run the search engine should return 
+“No Results Found” if everything is working.
+
+
+

@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AntiCorruptionSeachEngine.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-CA">
+    <head runat="server">
+    <link rel="stylesheet" type="text/css" href="App_Themes/General/html.css" media="screen, projection, tv " />
+    <link rel="stylesheet" type="text/css" href="App_Themes/General/layout.css" media="screen, projection, tv" />
+    <link rel="stylesheet" type="text/css" href="App_Themes/General/print.css" media="print" />
+    <title>Anti-Corruption Search Engine</title>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+        <div id="content">
+            <!-- HEADER: Holds title, subtitle and header-images -->
+            <div id="header">
+                <div id="title">
+                    <center><h1>Anti-Corruption Search Engine</h1></center>
+                </div>
+                <img src="../Images/balloons.gif" alt="" class="balloons" />
+                <img src="../Images/header_left.jpg" alt="" class="left" />
+                <img src="../Images/header_right.jpg" alt="" class="right" />
+            </div>
+            <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+            <div id="mainMenu">
+                <ul class="floatRight">
+                    <li><a href="#" class="here">Home</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="print.html">Print</a></li>
+                    <li><a href="#" class="last">Mail</a></li>
+                </ul>
+
+            </div>
+            <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+            <div id="page">
+                <!-- 25 percent width column, aligned to the left -->
+                <div class="width25 floatLeft leftColumn">
+                    <h1>Menu</h1>
+                    <ul class="sideMenu">
+                        <li class="here">
+                            <ul>
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">Links</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 75 percent width column, aligned to the right -->
+                <div class="width75 floatRight">
+                    <!-- Gives the gradient block -->
+                    <ajax:ToolkitScriptManager runat="server" />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="width25 floatLeft leftColumn">
+                                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                    <ContentTemplate>
+                                        <asp:AdRotator Width="250" Height="250" ID="AdRotator1" Target="_blank" AdvertisementFile="~/App_Data/Advertisement.ads" OnAdCreated="AdRotator1_AdCreated" runat="server" />
+                                        <br />
+                                        <asp:Literal ID="alternateText" runat="server"></asp:Literal>
+                                        <br />
+                                        <asp:Literal Text="Click here to" runat="server"></asp:Literal>
+                                        <asp:HyperLink ID="hyperLink" Target="_blank" Text="Learn More" runat="server"></asp:HyperLink>
+                                    </ContentTemplate>
+                                    <Triggers>
+                                        <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
+                                    </Triggers>
+                                </asp:UpdatePanel>
+                                <!-- Cycles through material every 20 seconds. -->
+                                <asp:Timer ID="Timer1" Interval="20000" runat="server">
+                                </asp:Timer>
+                            </div>
+            </div>
+        </div>
+        <!-- FOOTER: Site footer for links, copyright, etc. -->
+        <div id="footer">
+            <div id="width"><span class="floatLeft">5Eyes</a> <span class="grey">|</span> Anti-Corruption Search Engine <span class="grey">|</span> <a href="Admin/Login.aspx">Admin</a></div>
+        </div>
+    </form>
+</body>
+</html>
